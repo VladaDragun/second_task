@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <script type="text/javascript">
+  nextNumber:
+  for (let i = 1; i <= 1000; i++) {
+
+    for (let j = 2; j < i; j++) {
+      if (i % j == 0) continue nextNumber;
+    }
+    console.log( i );
+  }
+  </script>
+</body>
+</html>
